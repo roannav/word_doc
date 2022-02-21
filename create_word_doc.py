@@ -1,3 +1,11 @@
+# Create a sample .docx document
+# with headings, paragraphs, runs, line breaks, pictures,
+# Each run signifies that the style is changing.
+# Each run has a different style, than the one before it.
+#
+# Styles can affect a paragraph or a run.
+# The font can also be modified directly.
+
 from docx import Document, text
 from docx.shared import Pt, Inches
 
